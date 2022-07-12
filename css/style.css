@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom-left-radius: 10px;
+}
+
+.box{
+    height: 500px;
+    width: 330px;
+}
+.box:nth-child(1){
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:  hsl(31, 77%, 52%);
+    position: relative;
+}
+.box:nth-child(2){
+    background-color: hsl(184, 100%, 22%);
+    position: relative;
+}
+.box:nth-child(3){
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.heading{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.description{
+    color: white;
+    font-family: 'Lexend Deca' , sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 225px;
+
+}
+
+
+.btn{
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    background-color: white;
+    border-radius: 40px;
+    font-family: 'Legend Deca' , sans-serif;
+    /* font-weight: 20px; */
+    padding: 15px;
+    border: none;
+    width: 160px;
+
+}
+#first{
+    color: hsl(31, 77%, 52%);
+}
+#second{
+    color: hsl(184, 100%, 22%);
+}
+#third{
+    color: hsl(179, 100%, 13%);
+}
+.btn:hover{
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+#first:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+#second:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+#third:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
